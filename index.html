@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="icon" href="logo.png">
+        <title>Notes Tech Rootify</title>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <!--body-->
+        <header class="header">
+            <a href="https://www.techrootify.com/" class="logo">Tech Rootify</a>
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <nav class="navbar">
+                <a href="index.html" class="active">Home</a>
+                <a href="#">Cybersecurity</a>
+                <a href="#">Web Development</a>
+                <a href="#">Python</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+        
+        <section class="about" id="about">
+            <div class="about-img">
+                <img src="img1.png" alt="">
+            </div>
+            <div class="about-content">
+                <h2 class="heading">Tech<span> Rootify</span></h2>
+                <br>
+                <h3>Here you will find all Notes</h3>
+                <p>Here you will find all notes to help you learn, grow, and master your skills in cybersecurity, web development, and IT. Whether you're a beginner or an advanced learner, our resources are designed to provide clear, practical, and in-depth knowledge, starting from the root level. Stay updated, explore new concepts, and strengthen your tech foundation with our well-structured notes and guides.</p>
+                 <a href="https://github.com/techrootify"class="btn" target="_blank">GitHub</a>   
+            </div>
+        </section>
+        <section class="services"id="services">
+            <h2 class="heading">All<span> Notes</span></h2>
+
+            <div class="services-container">
+                <div class="services-box">
+                    <h3>Cybersecurity & Information Security Overview</h3>
+                    <p>This note covers cybersecurity, networking, computer fundamentals, and hardware components. It includes key topics like network security, IP addressing, OS security, protocols, storage, and the booting process, making it a valuable resource for building a strong IT foundation.</p>
+                    <a href="Cybersecurity & Information Security Overview.txt"class="btn" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;View&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                    <br><br>
+                    <a href="Cybersecurity & Information Security Overview.txt" class="btn" target="_blank" download>Download</a>
+                </div>
+        
+                <div class="services-box">
+                    <h3>Redhat Linux</h3>
+                    <p>Coming Soon</p>
+                    <a href="#"class="btn" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;View&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                    <br><br>
+                    <a href="#"class="btn" target="_blank">Download</a>
+                </div>
+            
+                <div class="services-box">
+                    <h3>Amazon Web Services (AWS)</h3>
+                    <p>Coming Soon</p>
+                    <a href="#"class="btn" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;View&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                    <br><br>
+                    <a href="#"class="btn" target="_blank">Download</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="contact-img">
+                <img src="img3.jpg" alt="">
+            </div>
+            <div class="contact-content">
+                <h2 class="heading">Contact<span> Us</span></h2>
+                <h3>Any Time</h3>
+                <p>We’d love to hear from you! Whether you have a question, need help, or just want to connect, we’re here for you. Feel free to reach out to us on Instagram, and our team will get back to you as quickly as possible. We believe in building strong relationships with our community and are always happy to support you on your tech journey. Don’t hesitate to contact us – we’re just a message away!</p>
+                 <a href="https://www.instagram.com/techrootify/"class="btn" target="_blank">Instagram</a>
+            </div>
+            <div class="social-media">
+                <a href="https://github.com/techrootify" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="#" target="_blank"><i class='bx bxs-envelope'></i></a>
+                <a href="https://www.instagram.com/techrootify/" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://www.linkedin.com/company/techrootify/" target="_blank"><i class='bx bxl-linkedin-square' ></i></a>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer-text">
+                <p>Copyright &copy; 2025 by Tech Rootify | All Rights Reserved.</p>
+            </div>
+            <div class="footer-iconTop">
+                <a href="#about"><i class='bx bx-up-arrow-alt' ></i></a>
+            </div>
+        </footer>
+
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script src="script.js"></script>
+
+        <script>
+            function downloadFile() {
+              var element = document.createElement('a');
+              element.setAttribute('href', 'path-to-your-file');
+              element.setAttribute('download', 'filename');
+              element.style.display = 'none';
+              document.body.appendChild(element);
+              element.click();
+              document.body.removeChild(element);
+            }
+        </script>
+        
+    </body>
+</html>
